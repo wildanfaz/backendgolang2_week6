@@ -1,4 +1,4 @@
-package task3
+package taskbasic3
 
 import "math"
 

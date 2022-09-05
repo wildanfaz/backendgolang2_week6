@@ -1,4 +1,4 @@
-package task2
+package taskbasic2
 
 type Number struct {
 	N int
