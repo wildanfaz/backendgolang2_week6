@@ -22,10 +22,10 @@ func main() {
 	fmt.Println("Fibonacci =", num.Fibonacci())
 
 	fmt.Println("\nTask3")
-	var count taskbasic3.AllCalculate = &taskbasic3.Cube{Side: 10}
+	var cal taskbasic3.AllCalculate = &taskbasic3.Cube{Side: 10}
 	fmt.Println("Count 2D")
-	fmt.Println("Area =", count.Area(), "cm2")
-	fmt.Println("Perimeter =", count.Perimeter(), "cm")
+	fmt.Println("Area =", cal.Area(), "cm2")
+	fmt.Println("Perimeter =", cal.Perimeter(), "cm")
 	fmt.Println("Count 3D")
-	fmt.Println("Volume =", count.Volume(), "cm3")
+	fmt.Println("Volume =", cal.Volume(), "cm3")
 }
